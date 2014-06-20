@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="jquery-ui-1.10.4.custom.min.css" rel="stylesheet" />
+<script src="jquery-1.10.2.js"></script>
+<script src="jquery-ui-1.10.4.custom.min.js"></script>
+<script src="jquery.timeunit.js"></script>
+<link rel="stylesheet" type="text/css" href="jquery.timeunit.css">
+  <meta charset="utf-8">
+  <title>Seconds picker</title>
+</head>
+<body>
+  <br /><br /><br /><br /><br /><br />
+  <input class="timeunit1" value="894060" />
+  sdasda
+  sdadas
+  <br />
+  <input class="timeunit" value="" />
+  sdas
+  sssdf
+  <br />
+  <br /><br /><br />
+
+  <script type="text/javascript">
+    $(function(){
+      var t = $('.timeunit').timeunit({controls: ['hour', 'minute']});
+      var t = $('.timeunit1').timeunit({controls: ['day', 'hour', 'minute']});
+    })
+  </script>
+</body>
+</html>

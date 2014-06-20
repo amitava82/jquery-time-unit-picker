@@ -1,0 +1,25 @@
+.timeunit-widget{
+    width: 260px;
+}
+.ui-timeunit-title{
+  padding: 0 10px;
+}
+.timeunit-content {
+    padding: 0 10px;
+}
+.timeunit-content label{
+    float: left;
+}
+.timeunit-content > div{
+    margin-bottom: 15px;
+    line-height: 10px;
+    font-weight: bold;
+}
+.slider {
+    margin: 0 10px 10px 45%;
+    height: 10px;
+}
+
+.ui-slider .ui-slider-handle {
+  height: 18px;
+}
